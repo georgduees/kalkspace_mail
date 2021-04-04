@@ -1,0 +1,39 @@
+<mjml>
+  <mj-head>
+    <mj-title>KalkSpace Newsletter Anmeldung</mj-title>
+    <mj-font name="Raleway" href="https://fonts.googleapis.com/css?family=Raleway:300,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Raleway" />
+      <mj-button font-size="16px" background-color="#ff9505" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text font-size="20px" color="#626262">KalkSpace Newsletter</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Image Header -->
+    </mj-raw>
+    <mj-section background-url="https://kalk.space/img/space.jpg" background-size="cover" background-repeat="no-repeat">
+      <mj-column width="600px">
+        <mj-text align="center" color="#fff" font-size="40px">Bitte Anmeldung bestätigen</mj-text>
+        <mj-text color="#fff">Vielen Dank für dein Interesse, um dich für den Newsletter einzutragen, bestätige dies bitte mit einem Klick auf den Button.</mj-text>
+        <mj-button css-class="button" href="#">Ja, melden Sie mich für den Newsletter an</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-text color="#626262">Wenn Sie diese E-Mail irrtümlich erhalten haben, löschen Sie sie einfach.
+          Wenn Sie den Bestätigungslink nicht anklicken, werden Sie nicht für den Newsletter angemeldet.</mj-text>
+        <mj-text color="#626262">Bei Fragen zu diesem Newsletter kontaktieren Sie bitte:
+          <mj-raw>
+            <a href="mailto:markus.weiner+kalkspace@gmail.com?subject=Newsletter%20Anmeldung">markus.weiner+kalkspace@gmail.com</a>
+          </mj-raw>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-section>
+  </mj-body>
+</mjml>
