@@ -9,8 +9,13 @@ HTML Email-Templates
 * Settings
 * Unsubscribe
 
-What does each Template have in common?
-Subject, Sender, Title
+## Referenzen
+
+
+http://mjml.io
+
+http://kalk.space
+
 
 ## Anmeldung
 
