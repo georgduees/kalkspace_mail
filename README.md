@@ -32,7 +32,45 @@ Mail an "markus.weiner+kalkspace@gmail.com" mit Betreff "Newsletter Anmeldung"
 Hintergrundbild im Header wurde von Kalkspace-Webseite genommen:
 https://kalk.space/img/space.jpg
 
-{{Subject}}
-{{MailToSubject}}
-{{MailToAddress}}
-{{ButtonTargetLink}}
+Beispiel fuer Templates.
+
+* {{Subject}}
+* {{MailToSubject}}
+* {{MailToAddress}}
+* {{ButtonTargetLink}}
+
+## Bestätigung
+
+### Template:
+ConfirmationMail.mjml
+HTML-Template:
+ConfirmationMail.html
+
+Newsletter Bestätigung:
+
+![confirmationmail.png](_resources/confirmationmail.png)
+
+Eigenschaften:
+
+VCard-Link führt zu einer Visitenkarte - aktuell nochz zur Mailchimp-ressource.
+WebsiteLink führt zur KalkSpace Homepage.
+SettingsLink führt zur Einstellungs-Website.
+
+Hintergrundbild im Header wurde von Kalkspace-Webseite genommen:
+https://kalk.space/img/space.jpg
+
+Beispiel fuer Templates.
+
+* {{Subject}}
+* {{Imprint}}
+  * Enthaelt die Adressdaten des Nutzers
+* {{VCardLink}}
+* {{WebsiteLink}}
+* {{SettingsLink}}
+
+## Reminder
+
+### Template
+ReminderMail.mjml
+HTML-Template:
+ReminderMail.html
